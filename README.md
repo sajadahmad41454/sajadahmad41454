@@ -10,7 +10,7 @@ I use computational biology and AI to understand disease at the molecular level,
 
 ### 🔬 Research projects
 
-**🧬 Colorectal cancer: driver genes and drug discovery** *(MPhil thesis, manuscript in preparation)*
+**🧬 Colorectal cancer: driver genes and drug discovery** *(MPhil research, manuscript in preparation)*
 Multi-omics analysis of the TCGA COAD/READ cohort: RNA-seq differential expression, mutation (MAF) integration, validation against COSMIC, and a Random Forest model that ranks candidate driver genes, followed by molecular docking to find potential drugs.
 `R` `DESeq2` `TCGA/GDC` `scikit-learn` `molecular docking`
 Includes a comparison of microsatellite-unstable (MSI) and stable (MSS) tumours with DepMap dependency and drug-sensitivity data to find MSI-specific drug targets.
@@ -19,7 +19,7 @@ Includes a comparison of microsatellite-unstable (MSI) and stable (MSS) tumours 
 BS final year project. Raw FASTQ files from 4 healthy and 6 cirrhosis samples through FastQC/MultiQC, HISAT2, SAMtools, counts, DESeq2, then DAVID pathways and STRING hub genes. Reproducible scripts in the linked repository.
 `FastQC` `HISAT2` `SAMtools` `DESeq2` `DAVID` `STRING`
 
-**🤖 Biorex: an LLM-based biomarker discovery tool** *(in development)*
+**🤖 Biorex: an LLM-based biomarker discovery tool** *(MPhil thesis, in development)*
 Mines PubTator3 (11M+ annotated sentences, 50M+ gene–disease–chemical relations) to find biomarkers for a gene list, explain relations with evidence, and build knowledge graphs. Uses a fine-tuned Qwen2.5 model (QLoRA) with reasoning traces.
 `Python` `PubTator3` `SQLite` `QLoRA` `Hugging Face` `knowledge graphs`
 
